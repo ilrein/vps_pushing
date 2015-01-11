@@ -38,11 +38,11 @@ end
 # Use unicorn as the app server
 #gem 'unicorn'
 
-gem 'quiet_assets', group: :development
 gem 'devise'
-gem 'awesome_print', group: :development
-gem 'thin', group: :development
-gem 'meta_request', group: :development
+# gem 'awesome_print', group: :development
+# gem 'thin', group: :development
+# gem 'meta_request', group: :development
+# gem 'quiet_assets', group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
