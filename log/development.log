@@ -243,3 +243,171 @@ Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/__meta_request/b87c25f0-62f9-4465-a73b-74d01780d743.json" for 127.0.0.1 at 2015-01-11 18:23:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 18:39:16 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 765ms (Views: 749.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/TimelineLite.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/TimelineMax.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/TweenLite.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/TweenMax.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/easing/EasePack.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/CSSPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/CSSRulePlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/ColorPropsPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/DirectionalRotationPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/jquery.gsap.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/AttrPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/BezierPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/EaselPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/EndArrayPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/KineticPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/RoundPropsPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/RaphaelPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/ScrollToPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/plugins/TextPlugin.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/gsap/utils/Draggable.min.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/textillate/assets/jquery.fittext.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/textillate/jquery.textillate.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/textillate/assets/jquery.lettering.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/api.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/colorize.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/form.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/state.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/visibility.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/visit.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/site.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/checkbox.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/accordion.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/dimmer.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/dropdown.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/modal.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/nag.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/popup.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/progress.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/rating.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/search.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/shape.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/sidebar.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/tab.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/sticky.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/video.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui/transition.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/semantic-ui.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-11 18:39:18 -0500
