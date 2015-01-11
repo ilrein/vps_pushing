@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
-gem 'thin', group: :development
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
@@ -43,7 +43,3 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-gem 'quiet_assets', group: :development
-gem 'awesome_print'
-gem 'semantic-ui-sass'
