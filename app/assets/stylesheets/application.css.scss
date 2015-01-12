@@ -12,4 +12,20 @@
  *= require_tree .
  */
 
- @import "semantic-ui"
+ @import "semantic-ui";
+
+ .center {
+  text-align:center;
+ }
+
+ .right {
+  text-align:right !important;
+ }
+
+ .float-right {
+  float:right;
+ }
+
+ .alpha {
+  font-size: 2em !important;
+ }
