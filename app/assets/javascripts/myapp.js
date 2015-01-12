@@ -1,11 +1,25 @@
 var ready;
 ready = function() {
 
-  $('#header').sidebar({
-    exclusive: false,
-    closeable: false,
-    dimPage: false
-  }).sidebar('show');
+  $('.tlt').textillate({
+   in: { 
+    delay: 1.3,
+    effect: 'fadeInLeftBig',
+    callback: tlt2()
+  }
+});
+  function tlt2() {
+    $('.tlt2').textillate({
+     in: { 
+      delay: 1.8,
+      effect: 'bounceIn'
+    }
+  }); 
+  }
+
+  $('i.facebook').on('click', function(){
+
+  });  
 
 };
 
