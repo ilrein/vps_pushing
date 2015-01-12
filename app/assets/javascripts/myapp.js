@@ -4,22 +4,17 @@ ready = function() {
   $('.tlt').textillate({
    in: { 
     delay: 1.3,
-    effect: 'fadeInLeftBig',
-    callback: tlt2()
-  }
-});
-  function tlt2() {
-    $('.tlt2').textillate({
-     in: { 
-      delay: 1.8,
-      effect: 'bounceIn'
-    }
-  }); 
-  }
+    effect: 'fadeInLeftBig'
+  }});
 
   $('i.facebook').on('click', function(){
 
-  });  
+  });
+
+  var fademe = $('.fademein');
+
+  TweenLite.set(fademe, {autoAlpha: 0});
+  TweenLite.to(fademe, 1.2, {autoAlpha:1}).delay(2);
 
 };
 
