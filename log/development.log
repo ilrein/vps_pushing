@@ -1052,3 +1052,10 @@ Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.3ms)
   Rendered layouts/_header.html.erb (0.9ms)
 Completed 200 OK in 57ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 20:47:08 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+Completed 200 OK in 5996ms (Views: 5995.1ms | ActiveRecord: 0.0ms)
