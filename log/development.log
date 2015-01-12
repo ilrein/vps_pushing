@@ -1059,3 +1059,17 @@ Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.2ms)
   Rendered layouts/_header.html.erb (4.0ms)
 Completed 200 OK in 5996ms (Views: 5995.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 20:50:35 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-11 20:51:07 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms)
