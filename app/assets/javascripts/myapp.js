@@ -24,12 +24,11 @@ ready = function() {
   TweenLite.to(fademe3, 1.2, {autoAlpha:1}).delay(3);
 
   var tl = new TimelineLite;
+  tl.stop();
   var gasmask = $('#gasmask');
   tl.add(TweenLite.to(gasmask, 0.4, { 
-    boxShadow: "5px 5px 2.5px 0px rgba(0,0,0,0.75)",
-    ease: Linear.easeNone
+    boxShadow: "2.5px 2.5px 1.25px 0px rgba(0,0,0,0.75)"
   }));
-
 
   $('#gasmask').on('mouseenter', function(){
    tl.play(); 

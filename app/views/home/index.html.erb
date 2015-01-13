@@ -13,7 +13,7 @@
     <div class="four wide column">
       <div class="ui card green message">
         <div class="row" id="headshot_bg">
-          <%= image_tag("greg.png", class: "ui centered tiny circular image") %>
+          <%= image_tag("greg.png", class: "fademein2 ui centered tiny circular image") %>
         </div> 
         <div class="content">    
           <div class="header tltleft">Greg Merritt</div>
@@ -25,19 +25,17 @@
           </div>
         </div>
         <div class="extra content">
-          <%= semantic_icon(:mail, :float_right) %>
+          <i id="gregs-email" class="mail icon float-right"></i>
           <%= semantic_icon(:facebook, :float_right) %>
         </div>
       </div>
     </div>
-    <div class="twelve wide column">
-      <div class="ui green message">
-
-
-        <%= image_tag("drawing1.jpg", id: "gasmask", class: "ui image medium") %>
-
-
-      </div>
+    <div class="eight wide column">
+      <div class="ui horizontal green segment">
+       <div class="center header">Image Title</div>
+       <div class="left content">
+       <%= image_tag("drawing1.jpg", id: "gasmask", class: "fademein3 ui image medium") %>
+       </div>
     </div>
   </div>
 </div>
