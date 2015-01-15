@@ -3,35 +3,7 @@ ready = function() {
 
   // modal for imgs
 
-  // $('#gasmask').on('click', function(){
-  //   $('#gasmask').modal('show');
-  // });
-
-  
-
-  function showGasMask() {
-    var gasmask = $('#gasmask');
-    gasmask.on('click', function(){
-      console.log('hmm');  
-    })  
-  }
-
-  $('.modallic').modal();
-
-  $('.modallic').modal('attach events', '#gasmask');
-
-  // $('#gasmask').on('blur', function(){
-  //   $('#gasmask').modal('hide');
-  // });
-
-  // bot-bar
-
   $('.demo').sidebar();
-
-  // $('#bot-bar').sidebar({
-  //   closeable: false
-  // });  
-
 
   // txtlate fxs
 

@@ -5463,3 +5463,112 @@ Processing by HomeController#index as HTML
   Rendered layouts/_header.html.erb (0.4ms)
   Rendered layouts/_botbar.html.erb (0.2ms)
 Completed 200 OK in 147ms (Views: 142.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:13:24 -0500
+Processing by HomeController#index as HTML
+  [1m[36mDesign Load (0.3ms)[0m  [1mSELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 118.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:13:57 -0500
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.3ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.1ms)
+Completed 200 OK in 225ms (Views: 220.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:14:27 -0500
+Processing by HomeController#index as HTML
+  [1m[36mDesign Load (0.3ms)[0m  [1mSELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 45.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:15:19 -0500
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.3ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_botbar.html.erb (0.1ms)
+Completed 200 OK in 133ms (Views: 128.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:15:35 -0500
+Processing by HomeController#index as HTML
+  [1m[36mDesign Load (0.3ms)[0m  [1mSELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_botbar.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:16:03 -0500
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.3ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_botbar.html.erb (0.6ms)
+Completed 200 OK in 65ms (Views: 60.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:16:27 -0500
+Processing by HomeController#index as HTML
+  [1m[36mDesign Load (0.2ms)[0m  [1mSELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.6ms)
+Completed 200 OK in 55ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:17:30 -0500
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.3ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.7ms)
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:17:40 -0500
+Processing by HomeController#index as HTML
+  [1m[36mDesign Load (0.2ms)[0m  [1mSELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 63.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:18:18 -0500
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.3ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 37.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:19:31 -0500
+Processing by HomeController#index as HTML
+  [1m[36mDesign Load (0.2ms)[0m  [1mSELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.7ms)
+Completed 200 OK in 48ms (Views: 39.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 20:21:44 -0500
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.2ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/_authorbar.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_botbar.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 42.3ms | ActiveRecord: 0.2ms)
