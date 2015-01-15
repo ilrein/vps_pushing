@@ -53,9 +53,12 @@
       <div class="ui horizontal green segment">
        <div class="center header"><%= @design.name %></div>
        <div class="content">
-         <%= image_tag(@design.image, id: "gasmask", class: "fademein3 ui image") %>
+         <%= image_tag(@design.image, id: @design.name, class: "fademein3 ui image") %>
        </div>
      </div>
    </div>
  </div>  
  
+ <div class="modallic">
+  <%= image_tag(@design.image, id: @design.name, class: "ui image") %>
+ </div>  

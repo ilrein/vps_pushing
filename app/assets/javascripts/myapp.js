@@ -7,6 +7,19 @@ ready = function() {
   //   $('#gasmask').modal('show');
   // });
 
+  
+
+  function showGasMask() {
+    var gasmask = $('#gasmask');
+    gasmask.on('click', function(){
+      console.log('hmm');  
+    })  
+  }
+
+  $('.modallic').modal();
+
+  $('.modallic').modal('attach events', '#gasmask');
+
   // $('#gasmask').on('blur', function(){
   //   $('#gasmask').modal('hide');
   // });
