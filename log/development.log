@@ -5697,3 +5697,14 @@ Processing by HomeController#index as HTML
   Rendered layouts/_header.html.erb (2.7ms)
   Rendered layouts/_botbar.html.erb (0.8ms)
 Completed 200 OK in 436ms (Views: 396.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 21:40:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mDesign Load (0.3ms)[0m  SELECT "designs".* FROM "designs" ORDER BY "designs"."id" ASC LIMIT 1
+  Rendered home/_authorbar.html.erb (6.2ms)
+  Rendered home/index.html.erb within layouts/application (17.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_botbar.html.erb (0.7ms)
+Completed 200 OK in 494ms (Views: 411.3ms | ActiveRecord: 1.3ms)
