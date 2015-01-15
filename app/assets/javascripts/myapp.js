@@ -1,6 +1,27 @@
 var ready;
 ready = function() {
 
+  // modal for imgs
+
+  // $('#gasmask').on('click', function(){
+  //   $('#gasmask').modal('show');
+  // });
+
+  // $('#gasmask').on('blur', function(){
+  //   $('#gasmask').modal('hide');
+  // });
+
+  // bot-bar
+
+  $('.demo').sidebar();
+
+  // $('#bot-bar').sidebar({
+  //   closeable: false
+  // });  
+
+
+  // txtlate fxs
+
   $('.tlttop').textillate({
    in: { 
     delay: 1.3,
@@ -13,6 +34,8 @@ ready = function() {
     effect: 'fadeInLeftBig'
   }});
 
+  // fade in effects
+
   var fademe2 = $('.fademein2');
 
   TweenLite.set(fademe2, {autoAlpha: 0});
@@ -23,6 +46,8 @@ ready = function() {
   TweenLite.set(fademe3, {autoAlpha: 0});
   TweenLite.to(fademe3, 1.2, {autoAlpha:1}).delay(3);
 
+  // box shadow hover
+
   var tl = new TimelineLite;
   tl.stop();
   var gasmask = $('#gasmask');
@@ -32,7 +57,7 @@ ready = function() {
 
   $('#gasmask').on('mouseenter', function(){
    tl.play(); 
-  });
+ });
 
   $('#gasmask').on('mouseleave', function(){
     tl.reverse();
