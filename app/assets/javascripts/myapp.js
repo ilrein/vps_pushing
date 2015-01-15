@@ -1,7 +1,17 @@
 var ready;
 ready = function() {
 
+  // inject some extra height into pusher
+
+  var bh = $('.pusher').height();
+  
+  $('.pusher').height(bh + 50);
+  
   // modal for imgs
+
+  // TODO
+
+  // sidebar init()
 
   $('.demo').sidebar();
 
