@@ -1,28 +1,25 @@
-<style type="text/css" media="screen">
-      body {
-	text-align:center;
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
-
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
-
-</style>
-<h1 align="center">DigitalOcean Rails Application</h1>
-<img src="assets/rails.png" align="center"><br/>
-<p>This file is located in /home/rails/app/views/home/index.html.erb</p>
-
-Your application root is located in: <%= Rails.root.to_s %><br>
-
-Ruby version: <%= RUBY_VERSION %><br>
-
-Rails version: <%= Rails.version %><br>
-
+<div class="ui grid">
+  <div class="sixteen wide column">
+    <div class="ui horizontal segment">
+      <div class="ui purple message">
+        <p class="tlttop header alpha center">Thanks for visiting!</p>
+        <p class="fademein2">VerumDesigns is a creative collaboration between <a href="https://www.facebook.com/ilia.reingold" target="_blank">@Ilia Reingold </a>
+         and <a href="https://www.facebook.com/greg.merritt.75" target="_blank">@Greg Merritt</a>. It's our ambition to release premium, high quality graphic shirts. Our strategy is release a lightweight, voting-based site, where our users and beloved fans can cast their pick for our next run of production.</p>
+         <p class="fademein3 center">Let us know which ones you like!</p>
+       </div>
+     </div>
+   </div>
+   <div class="row">
+    <div class="five wide column">
+    <%= render "authorbar" %>
+    </div>
+  </div>
+  <div class="eight wide column">
+    <div class="ui horizontal green segment">
+     <div class="center header"><%= @design.name %></div>
+     <div class="content">
+       <%= image_tag(@design.image, id: @design.name, class: "fademein3 ui image") %>
+     </div>
+   </div>
+ </div>
+</div>  

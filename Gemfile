@@ -36,10 +36,18 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+#gem 'unicorn'
+
+gem 'devise'
+gem 'awesome_print', group: :development
+#gem 'thin', group: :development
+gem 'meta_request', group: :development
+gem 'quiet_assets', group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass', branch: 'v1.0beta'
