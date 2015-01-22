@@ -12,6 +12,23 @@ ready = function() {
     $(this).transition("pulse");
   });
 
+  var home_tl = new TimelineLite;
+  home_tl.stop();
+  
+  var redhover = $('.red-hover');
+  home_tl.add(TweenLite.to(redhover, 0.4, { 
+    color: "red"
+  }));
+
+  
+  $('.red-hover').on('mouseenter', function(){
+    home_tl.play();
+  });
+
+
+  $('.red-hover').on('mouseleave', function(){
+    home_tl.reverse();
+  });
 
 };
 
