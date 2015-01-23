@@ -1,6 +1,13 @@
-<div class="ui fluid item menu">
+<div class="ui three item teal menu">
   <div class="borderless item">
-  <a href="https://www.facebook.com/verumdesigns" target="_blank"><%= image_tag("vd3.png") %></a>
+    <%= image_tag("vd3.png", class: "ui image small") %>
   </div>
+  <a data-tooltip="Under Construction" class="tooltip item">
+    Blog
+    <%= semantic_icon(:pencil) %>
+  </a>
+  <a class="item">
+    Contact
+    <%= semantic_icon(:mail) %>
+  </a>
 </div>
-

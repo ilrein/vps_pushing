@@ -13,7 +13,7 @@ ready = function() {
 
   // sidebar init()
 
-  $('.demo').sidebar();
+  // $('#header').sidebar('show');
 
   // txtlate fxs
 

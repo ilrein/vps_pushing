@@ -1,7 +1,17 @@
 Myapp::Application.routes.draw do
+  
+  root to: 'home#home'
+  
+  get "home/home"
+
   get "home/index"
-  root to: 'home#index'
-  resource :designs, controller: :home
+
+
+
+
+
+  resource :design, controller: :home
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
