@@ -3,6 +3,10 @@ ready = function() {
 
   // lol
 
+  //$("div:contains('TDD')")
+
+  //.addClass('tooltip').attr('data-tooltip','222');
+
   // inject some extra height into pusher
 
   var bh = $('.pusher').height();
