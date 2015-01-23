@@ -1,6 +1,8 @@
 var ready;
 ready = function() {
 
+  // lol
+
   // inject some extra height into pusher
 
   var bh = $('.pusher').height();
