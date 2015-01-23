@@ -5,6 +5,10 @@ ready = function() {
 
   //$("div:contains('TDD')")
 
+  $('#_fb').on("mouseenter", function(){
+    $(this).css()
+  });
+
   //.addClass('tooltip').attr('data-tooltip','222');
 
   // inject some extra height into pusher
@@ -63,6 +67,16 @@ ready = function() {
   $('#gasmask').on('mouseleave', function(){
     tl.reverse();
   });
+
+  var timelines = [];
+
+  function tlGenerator(selector){
+    _.each(timelines, function(num){
+      console.log(num);
+    });
+  };
+
+  // tlGenerator();
 
 };
 
