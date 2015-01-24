@@ -59,18 +59,18 @@
 
         </div>  
         <div class="content">
-          <a class="header">Linux</a>
+          <a class="header"><%= @card.header %></a>
           <div class="meta">
-            <span class="date">SSD Hosting & sysadmin</span>
+            <span><%= @card.subheader %>lol</span>
           </div>
           <div class="description">
-            working hard
+            <%= @card.description %>
           </div>
         </div>
         <div class="extra content">
           <a>
             <i class="linux icon"></i>
-            We're Ubuntu lovers here
+            <%= @card.extra %>
           </a>
         </div>
       </div>

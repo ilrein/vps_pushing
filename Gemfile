@@ -43,6 +43,7 @@ gem 'awesome_print', group: :development
 gem 'thin', group: :development
 gem 'meta_request', group: :development
 gem 'quiet_assets', group: :development
+gem 'pry', group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

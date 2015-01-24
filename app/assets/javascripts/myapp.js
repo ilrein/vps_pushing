@@ -6,7 +6,7 @@ ready = function() {
   //$("div:contains('TDD')")
 
   $('#_fb').on("mouseenter", function(){
-    $(this).css()
+  //  $(this).css()
   });
 
   //.addClass('tooltip').attr('data-tooltip','222');
