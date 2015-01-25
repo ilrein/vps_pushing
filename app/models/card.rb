@@ -1,5 +1,11 @@
 class Card < ActiveRecord::Base
-  def subheader
-    nil
+
+scope :dynamic, ~> Card.all(limit: 2)
+
+  def high
+      "high"
+  end
+  def low
+      "low"
   end
 end

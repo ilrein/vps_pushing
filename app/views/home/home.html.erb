@@ -33,7 +33,7 @@
         </div>    
       </div>
       <div class="ui two item menu">
-      <div id="_fb" class="item">
+        <div id="_fb" class="item">
           <%= semantic_icon(:facebook) %>
         </div>  
         <div class="item">
@@ -42,7 +42,10 @@
       </div>  
     </div>
   </div>
+  
+  
   <div class="green row">
+
     <div class="sixteen wide column">
       <div class="ui message green">
         <div class="ui center header">
@@ -53,28 +56,11 @@
   </div>
   <div class="green row">
     <div class="five wide column">
+      <% @cards.first(2) do |card| %>
 
-      <div class="ui card">
-        <div class="linux_graph">
-
-        </div>  
-        <div class="content">
-          <a class="header"><%= @card.header %></a>
-          <div class="meta">
-            <span><%= @card.subheader %>lol</span>
-          </div>
-          <div class="description">
-            <%= @card.description %>
-          </div>
-        </div>
-        <div class="extra content">
-          <a>
-            <i class="linux icon"></i>
-            <%= @card.extra %>
-          </a>
-        </div>
-      </div>
-
+      <%= render "card", card: card %>
+        <%= binding.pry %>
+      <% end %>
     </div>
     <div class="five wide column">
       lol

@@ -1,13 +1,11 @@
 class HomeController < ApplicationController
   
   def home
-    cards = Card.all
-    @card = cards.first
+    @cards = Card.all
 
   end
 
   def index
     @designs = Design.all
-    @design = Design.first
   end
 end
